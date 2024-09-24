@@ -20,6 +20,7 @@ namespace ToDoList.Controllers
         [ActionName(nameof(Get))]
         public async Task<IActionResult> Get([FromQuery] GetTasksQueryModel model)
         {
+            //test deployment
             var query = this.Mapper.Map<GetTasksQuery>(model);
             var result = await this.Mediator.Send(query);
             return this.FromResult(result);
