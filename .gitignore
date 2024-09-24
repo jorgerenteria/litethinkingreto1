@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Application/bin
+/Application/obj
+/Challenge/bin
+/Challenge/obj
+/Domain/bin
+/Domain/obj/Debug/net8.0
+/Domain/obj/Release/net8.0
+/Domain/obj
+/Infrastructure/bin
+/Infrastructure/obj
+/Shared/bin
+/Shared/obj
+/Challenge/Properties/PublishProfiles
+/Challenge/Properties
+/CosmosDB/obj
